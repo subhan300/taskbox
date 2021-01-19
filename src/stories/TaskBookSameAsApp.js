@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from "react"
-import Input from "./components/Input"
-import ItemList from "./components/TaskList"
-function App() {
+import Input from "../components/Input"
+import ItemList from "../components/TaskList"
+function TaskBoxSameAsApp() {
   const[itemList,setItemList]=useState([])
   
   return (
@@ -13,4 +13,4 @@ function App() {
   );
 }
 
-export default App;
+export default TaskBoxSameAsApp;
